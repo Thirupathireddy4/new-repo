@@ -4,7 +4,7 @@ students = {}   # Dictionary to store student names and marks
 
 n = int(input("Enter number of students: "))
 
- 
+subjects = 3    # Number of subjects added as global variable
 
 for i in range(n):
 
@@ -18,7 +18,7 @@ for i in range(n):
 
         total += mark
 
-    average = total / 3
+    average = total / subjects
 
     students[name] = average
 
